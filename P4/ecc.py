@@ -28,6 +28,9 @@ def execute():
     mfile.flush()
     mfile.write(m)
 
+    message_file.close()
+    mfile.close()
+
     return
 
 # Main
